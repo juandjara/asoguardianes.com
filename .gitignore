@@ -64,3 +64,5 @@ typings/
 artifacts
 dist
 tmp
+# Local Netlify folder
+.netlify
