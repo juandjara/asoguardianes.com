@@ -3,7 +3,22 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/dossier
+  label: Dossier
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/calendar
+  label: Calendario
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
