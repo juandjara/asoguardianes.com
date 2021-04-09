@@ -19,8 +19,8 @@ sections:
   label: Calendario
   create: all
   match: "**/*"
-upload_dir: upload
-public_path: https://asoguardianes.com/upload
+upload_dir: public/images/upload
+public_path: https://asoguardianes.com/images/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
