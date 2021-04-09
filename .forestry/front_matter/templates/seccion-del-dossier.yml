@@ -1,4 +1,16 @@
 ---
 label: Seccion del dossier
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Título
+- name: body
+  type: blocks
+  label: Cuerpo
+  template_types: []
+  config:
+    min: 
+    max: 
