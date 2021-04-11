@@ -1,35 +1,39 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path:
-webhook_url:
+admin_path: 
+webhook_url: 
 sections:
-  - type: directory
-    path: content/blog
-    label: Blog
-    create: all
-    match: "**/*"
-  - type: directory
-    path: content/dossier
-    label: Dossier
-    create: all
-    match: "**/*"
-  - type: directory
-    path: content/calendar
-    label: Calendario
-    create: all
-    match: "**/*"
-  - type: document
-    label: Información del sitio
-    path: data/site.json
+- type: heading
+  label: Contenido
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/dossier
+  label: Dossier
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/calendar
+  label: Calendario
+  create: all
+  match: "**/*"
+- type: heading
+  label: Configuración
+- type: document
+  path: data/site.json
+  label: Información del sitio
 upload_dir: public/images/upload
 public_path: https://asoguardianes.com/images/upload
-front_matter_path: ""
-use_front_matter_path:
+front_matter_path: ''
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
-    - GIT_LFS_SKIP_SMUDGE=1
+  - GIT_LFS_SKIP_SMUDGE=1
   preview_output_directory: dist
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
