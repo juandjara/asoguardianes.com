@@ -8,12 +8,27 @@ fields:
   config:
     required: true
   label: Título
+- name: show_in_home
+  type: boolean
+  label: Mostrar en Inicio
+  description: Mostrar enlace en la página "Inicio"
+- name: show_in_dossier
+  type: boolean
+  label: Mostrar en Dossier
+  description: Mostrar enlace en la pagina "Dossier"
+- name: icon
+  type: file
+  config:
+    maxSize: 64
+  label: Icono
+  description: Icono para los menús de las páginas "Inicio" y "Dossier"
 - name: bg_image
   type: file
   config:
     maxSize: 64
   label: Imagen de fondo
-  description: Opcional
+  description: Opcional. Imagen decorativa para mostrar al inicio del documento junto
+    con el título
 pages:
 - content/dossier/rol.md
 - content/dossier/talleres.md
