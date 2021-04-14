@@ -12,10 +12,12 @@ fields:
   type: boolean
   label: Mostrar en Inicio
   description: Mostrar enlace en la página "Inicio"
+  default: true
 - name: show_in_dossier
   type: boolean
   label: Mostrar en Dossier
   description: Mostrar enlace en la pagina "Dossier"
+  default: true
 - name: icon
   type: file
   config:
