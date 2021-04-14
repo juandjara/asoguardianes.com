@@ -5,14 +5,13 @@ const GlobalStyle = createGlobalStyle`
     --light-red: #c41525;
     --dark-red: #8b1f27;
     --gradient: linear-gradient(80deg, #c41525 15%, #8b1f27 50%);
-    --family-sans: 'Roboto';
+    --family-sans: 'Alegreya Sans';
     --family-serif: 'Bree Serif'
   }
 
   body {
     margin: 0;
     color: white;
-    background: var(--gradient);
     min-height: 100vh;
     font-family: var(--family-sans), -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, sans-serif;
   }

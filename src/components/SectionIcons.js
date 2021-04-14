@@ -5,18 +5,17 @@ import styled from 'styled-components'
 
 const SectionIconsStyles = styled.ul`
   display: grid;
-  grid-template-columns: repeat(auto-fill, 160px);
-  grid-gap: 16px 8px;
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-gap: 24px 32px;
   justify-content: center;
   align-content: center;
-  margin-top: 32px;
-  margin-bottom: 24px;
+  margin: 24px 32px;
 
   li {
     text-align: center;
     text-transform: uppercase;
     box-sizing: content-box;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
     transition: opacity 0.25s ease;
@@ -35,7 +34,7 @@ const SectionIconsStyles = styled.ul`
 `
 
 const SectionIcons = ({ items, className }) => (
-  <SectionIconsStyles className={`section-icons ${className}`}>
+  <SectionIconsStyles className={`animate__bounceInUp animate__animated section-icons ${className}`}>
     {items.map(c => (
       <li key={c.id}>
         <Link to={dataService.collectionToLink(c)}>
