@@ -27,7 +27,7 @@ sections:
   path: data/site.json
   label: Información del sitio
 upload_dir: public/images/upload
-public_path: https://asoguardianes.com/images/upload
+public_path: "/images/upload"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
