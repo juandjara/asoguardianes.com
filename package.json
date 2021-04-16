@@ -2,23 +2,31 @@
   "name": "asoguardianes.com",
   "private": true,
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
+    "build:css": "postcss src/index.css > src/index.min.css",
+    "start": "NODE_ENV=development npm run build:css && react-static start",
+    "stage": "NODE_ENV=production npm run build:css && react-static build --staging",
+    "build": "NODE_ENV=production npm run build:css && react-static build",
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "axios": "^0.19.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-static": "^7.2.0",
-    "react-static-plugin-md-pages": "^0.3.0",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "axios": "^0.21.1",
+    "globby": "^11.0.3",
+    "gray-matter": "^4.0.2",
+    "postcss": "^8.2.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^6.0.0",
+    "react-static": "^7.5.3",
     "react-static-plugin-reach-router": "^7.2.0",
     "react-static-plugin-sitemap": "^7.2.0",
     "react-static-plugin-styled-components": "^7.5.0",
-    "styled-components": "^5.1.1"
+    "remark-gfm": "^1.0.0",
+    "styled-components": "^5.1.1",
+    "tailwindcss": "^2.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
@@ -28,6 +36,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.5",
+    "postcss-cli": "^8.3.1",
     "serve": "^11.1.0"
   }
 }

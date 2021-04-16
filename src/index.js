@@ -1,3 +1,4 @@
+import './index.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
@@ -16,22 +17,18 @@ if (typeof document !== 'undefined') {
     ? ReactDOM.hydrate
     : ReactDOM.render
 
-  const render = Comp => {
+  function render() {
     renderMethod(
       <AppContainer>
-        <Comp />
+        <App />
       </AppContainer>,
       target
     )
   }
-
-  // Render!
-  render(App)
+  render()
 
   // Hot Module Replacement
   if (module && module.hot) {
-    module.hot.accept('./App', () => {
-      render(App)
-    })
+    module.hot.accept('./App', () => render())
   }
 }

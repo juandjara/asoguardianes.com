@@ -1,49 +1,17 @@
 import React from 'react'
-import dataService from '../../dataService'
 import { Link } from '@reach/router'
-import styled from 'styled-components'
 
-const SectionIconsStyles = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
-  grid-gap: 24px 32px;
-  justify-content: center;
-  align-content: center;
-  margin: 24px 32px;
-
-  li {
-    text-align: center;
-    text-transform: uppercase;
-    box-sizing: content-box;
-    font-size: 16px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: opacity 0.25s ease;
-  }
-
-  li:hover img {
-    opacity: 0.75;
-  }
-
-  img {
-    display: block;
-    width: 75px;
-    height: auto;
-    margin: 0 auto;
-  }
-`
-
-const SectionIcons = ({ items, className }) => (
-  <SectionIconsStyles className={`animate__bounceInUp animate__animated section-icons ${className}`}>
-    {items.map(c => (
-      <li key={c.id}>
-        <Link to={dataService.collectionToLink(c)}>
-          <img src={dataService.makeImageUrl(c.icon, 'system-small-cover')} />
-          <p>{c.title}</p>
+const SectionIcons = ({ items, className = '' }) => (
+  <ul className={`py-4 grid grid-cols-auto-fit-100 gap-x-6 gap-y-12 place-content-center animate__bounceInUp animate__animated ${className}`}>
+    {items.map(page => (
+      <li className="text-center uppercase tracking-wider" key={page.slug}>
+        <Link to={page.link}>
+          <img src={page.data.icon} className="mx-auto h-auto w-20 bg-red-500 hover:bg-red-600 rounded-xl p-4" />
+          <p className="mt-2">{page.data.title}</p>
         </Link>
       </li>
     ))}
-  </SectionIconsStyles>
+  </ul>
 )
 
 export default SectionIcons

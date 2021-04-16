@@ -1,5 +1,6 @@
 import React from 'react'
-import dataService from './dataService'
+import siteData from './data/site.json'
+import { getFiles } from './lib/contentUtils'
 
 export default {
   Document: ({
@@ -22,21 +23,17 @@ export default {
       <Body>{children}</Body>
     </Html>
   ),
-  getSiteData: async () => {
-    const homeData = await dataService.getSiteData()
+  getSiteData() {
     return {
-      ...homeData,
+      ...siteData,
       lastBuilt: Date.now()
     }
   },
   getRoutes: async () => {
-    const collectionsInfo = await dataService.getCollectionsInfo()
-    const collectionItems = await dataService.getCollectionItems()
-    for (const collection of collectionsInfo) {
-      collection.items = collectionItems.filter(d => d.group === collection.id)
-    }
-
-    const tags = new Set(collectionItems.map(c => c.tags || []).flat())
+    const homePage = await getFiles('content/index.md')
+    const blogPages = (await getFiles('content/blog/*.md')).map(p => ({ ...p, link: `/blog/${p.slug}` }))
+    const dossierPages = (await getFiles('content/dossier/*.md')).map(p => ({ ...p, link: `/dossier/${p.slug}` }))
+    const contactPage = await getFiles('content/contacto.md')
 
     return [
       {
@@ -46,31 +43,23 @@ export default {
       {
         path: '/',
         template: 'src/pages/Landing',
-        getData: () => ({ collectionsInfo })
+        getData: () => ({ page: homePage[0], dossierPages })
       },
-      ...collectionsInfo.map(collection => ({
-        path: dataService.collectionToLink(collection),
-        template: 'src/pages/Collection',
-        getData: () => ({ collection, collectionsInfo })
+      ...blogPages.map(page => ({
+        path: page.link,
+        template: 'src/pages/Blog',
+        getData: () => ({ page })
       })),
-      ...Array.from(tags).map(tag => ({
-        path: dataService.tagToLink(tag),
-        template: 'src/pages/Collection',
-        getData: () => {
-          const collection = {
-            title: tag,
-            description: `<p>Actividades que contienen la etiqueta <strong class="tag">${tag}</strong></p>`,
-            icon: '/images/hashtag.svg',
-            iconRaw: true,
-            items: collectionItems.filter(d => {
-              const key = dataService.tagToLink(tag)
-              const tags = d.tags || []
-              return tags.some(tag => dataService.tagToLink(tag) === key)
-            })
-          }
-          return { collection, collectionsInfo }
-        }
-      }))
+      ...dossierPages.map(page => ({
+        path: page.link,
+        template: 'src/pages/Dossier',
+        getData: () => ({ page, dossierPages })
+      })),
+      {
+        path: '/contacto',
+        template: 'src/pages/Contact',
+        getData: () => ({ page: contactPage[0] })
+      }
     ]
   },
   siteRoot: 'https://asoguardianes.com',

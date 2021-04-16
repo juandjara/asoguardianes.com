@@ -11,7 +11,6 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    color: white;
     min-height: 100vh;
     font-family: var(--family-sans), -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, sans-serif;
   }
