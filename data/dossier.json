@@ -1,15 +1,5 @@
 [
   {
-    "title": "E-Sports",
-    "link": "/dossier/esports",
-    "icon": "images/iconos-dossier/esports.png"
-  },
-  {
-    "title": "Cultura",
-    "link": "/dossier/cultura",
-    "icon": "images/iconos-dossier/cultura.png"
-  },
-  {
     "title": "Rol",
     "link": "/dossier/rol",
     "icon": "/images/iconos-dossier/rol.png"
@@ -28,5 +18,15 @@
     "title": "Concursos y Gymkanas",
     "link": "/dossier/concursos-y-gymkanas",
     "icon": "/images/iconos-dossier/concursos_y_gymkanas.png"
+  },
+  {
+    "title": "E-Sports",
+    "link": "/dossier/esports",
+    "icon": "images/iconos-dossier/esports.png"
+  },
+  {
+    "title": "Cultura",
+    "link": "/dossier/cultura",
+    "icon": "images/iconos-dossier/cultura.png"
   }
 ]
