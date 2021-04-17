@@ -6,15 +6,9 @@ import { useRouteData } from 'react-static'
 import styled from 'styled-components'
 import { Link } from '@reach/router'
 import useMediaQuery from 'utils/useMediaQuery'
+import Footer from 'components/Footer'
 
 const Grid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-areas:
-    'head head head'
-    'nav main nav2'
-    'foot foot foot';
-
   .header-area {
     grid-area: head;
   }
@@ -28,10 +22,36 @@ const Grid = styled.div`
     grid-area: nav2;
   }
   .main-area {
-    grid-column: span 3 / span 3;
-    @media (min-width: 768px) {
-      grid-area: main;
-    }
+    grid-area: main;
+  }
+
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-template-rows: auto auto auto 1fr auto;
+  grid-template-areas: 
+    'head'
+    'nav'
+    'nav2'
+    'main'
+    'footer';
+
+  @media (min-width: 720px) {
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+      'head head'
+      'nav main'
+      'nav2 main'
+      'foot foot';
+  }
+
+  @media (min-width: 960px) {
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      'head head head'
+      'nav main nav2'
+      'foot foot foot';
   }
 `
 
@@ -39,7 +59,7 @@ export default function Dossier() {
   const { page, dossierPages } = useRouteData()
   const matches = useMediaQuery('(min-width: 720px)')
   return (
-    <Grid>
+    <Grid className="h-screen">
       <Header className="header-area bg-red-700" />
       <aside className="nav-area">
         <details open={matches}>
@@ -56,7 +76,7 @@ export default function Dossier() {
           </ul>
         </details>
       </aside>
-      <main className="main-area px-4">
+      <article className="main-area px-4">
         <h1 className="pt-8 font-medium text-center text-gray-700 text-6xl mb-4">{page.data.title}</h1>
         {page.data.bg_image && (
           <figure className="my-4">
@@ -66,12 +86,12 @@ export default function Dossier() {
             )}
           </figure>
         )}
-        <div className="prose prose-red lg:prose-xl py-8">
+        <div className="prose prose-red lg:prose-xl mx-auto py-8">
           <Markdown remarkPlugins={[GFM]}>{page.content}</Markdown>
         </div>
-      </main>
+      </article>
       <aside className="hidden md:block nav2-area"></aside>
-      <footer className="footer-area"></footer>
+      <Footer className="foot-area" />
     </Grid>
   )
 }
