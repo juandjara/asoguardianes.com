@@ -13,5 +13,10 @@
     "link": "/dossier/juegos-de-mesa",
     "title": "Juegos de mesa",
     "icon": "/images/iconos-dossier/juegos_de_mesa.png"
+  },
+  {
+    "title": "Concursos y Gymkanas",
+    "link": "/dossier/concursos-y-gymkanas",
+    "icon": "/images/iconos-dossier/concursos_y_gymkanas.png"
   }
 ]
