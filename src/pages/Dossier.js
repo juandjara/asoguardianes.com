@@ -56,7 +56,7 @@ const Grid = styled.div`
 `
 
 export default function Dossier() {
-  const { page, dossierPages } = useRouteData()
+  const { page, dossierConfig } = useRouteData()
   const matches = useMediaQuery('(min-width: 720px)')
   return (
     <Grid className="h-screen">
@@ -65,11 +65,11 @@ export default function Dossier() {
         <details open={matches}>
           <summary className="px-5 cursor-pointer pt-4 text-base text-red-700">Secciones</summary>
           <ul className="py-2">
-            {dossierPages.map(d => (
-              <li key={d.slug}>
-                <Link to={`/dossier/${d.slug}`} className="flex justify-start items-center text-red-500">
-                  <img className="my-3 mx-4 h-auto w-16 bg-red-500 hover:bg-red-600 rounded-xl p-2" src={d.data.icon} alt={`icono de ${d.data.title}`} />
-                  <p className="text-lg uppercase tracking-wider">{d.data.title}</p>
+            {dossierConfig.map(d => (
+              <li key={d.link}>
+                <Link to={d.link} className="flex justify-start items-center text-red-500">
+                  <img className="my-3 mx-4 h-auto w-16 bg-red-500 hover:bg-red-600 rounded-xl p-2" src={d.icon} alt={`icono de ${d.title}`} />
+                  <p className="text-lg uppercase tracking-wider">{d.title}</p>
                 </Link>
               </li>
             ))}

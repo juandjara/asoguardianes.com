@@ -8,7 +8,7 @@ import Footer from 'components/Footer'
 import GFM from 'remark-gfm'
 
 export default function Landing() {
-  const { page, dossierPages } = useRouteData()  
+  const { page, dossierConfig } = useRouteData()  
   return (
     <div className="overflow-hidden h-screen flex flex-col">
       <BackgroundImage
@@ -17,7 +17,7 @@ export default function Landing() {
         className='text-white flex flex-col justify-between'
         style={{ minHeight: 480 }}>
         <Header />
-        <SectionIcons items={dossierPages} />
+        <SectionIcons items={dossierConfig} />
       </BackgroundImage>
       <div className="prose prose-red lg:prose-xl mx-auto py-8 flex-grow">
         <Markdown remarkPlugins={[GFM]}>{page.content}</Markdown>

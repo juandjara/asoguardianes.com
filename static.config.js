@@ -1,8 +1,9 @@
 import React from 'react'
 import siteData from './data/site.json'
+import dossierConfig from './data/dossier.json'
 import { getFiles } from './lib/contentUtils'
 
-export default {
+const config = {
   Document: ({
     Html,
     Head,
@@ -43,7 +44,7 @@ export default {
       {
         path: '/',
         template: 'src/pages/Landing',
-        getData: () => ({ page: homePage[0], dossierPages })
+        getData: () => ({ page: homePage[0], dossierConfig })
       },
       ...blogPages.map(page => ({
         path: page.link,
@@ -53,7 +54,7 @@ export default {
       ...dossierPages.map(page => ({
         path: page.link,
         template: 'src/pages/Dossier',
-        getData: () => ({ page, dossierPages })
+        getData: () => ({ page, dossierConfig })
       })),
       {
         path: '/contacto',
@@ -69,3 +70,5 @@ export default {
     'react-static-plugin-sitemap'
   ]
 }
+
+export default config

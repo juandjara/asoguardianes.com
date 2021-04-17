@@ -14,7 +14,6 @@ const NotFoundStyle = styled.div`
   }
 
   .back-link {
-    color: white;
     margin-top: 1rem;
     font-size: 16px;
     opacity: 0.8;

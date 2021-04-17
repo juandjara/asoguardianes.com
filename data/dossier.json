@@ -22,11 +22,11 @@
   {
     "title": "E-Sports",
     "link": "/dossier/esports",
-    "icon": "images/iconos-dossier/esports.png"
+    "icon": "/images/iconos-dossier/esports.png"
   },
   {
     "title": "Cultura",
     "link": "/dossier/cultura",
-    "icon": "images/iconos-dossier/cultura.png"
+    "icon": "/images/iconos-dossier/cultura.png"
   }
 ]
