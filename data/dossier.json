@@ -1,5 +1,15 @@
 [
   {
+    "title": "E-Sports",
+    "link": "/dossier/esports",
+    "icon": "images/iconos-dossier/esports.png"
+  },
+  {
+    "title": "",
+    "link": "",
+    "icon": ""
+  },
+  {
     "title": "Rol",
     "link": "/dossier/rol",
     "icon": "/images/iconos-dossier/rol.png"
