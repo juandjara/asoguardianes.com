@@ -33,7 +33,7 @@ const Grid = styled.div`
     'nav'
     'nav2'
     'main'
-    'footer';
+    'foot';
 
   @media (min-width: 720px) {
     grid-template-columns: 1fr 3fr;
