@@ -8,5 +8,10 @@
     "title": "Talleres",
     "link": "/dossier/talleres",
     "icon": "/images/iconos-dossier/talleres.png"
+  },
+  {
+    "link": "/dossier/juegos-de-mesa",
+    "title": "Juegos de mesa",
+    "icon": "/images/iconos-dossier/juegos_de_mesa.png"
   }
 ]
