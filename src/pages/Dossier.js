@@ -59,7 +59,7 @@ export default function Dossier() {
   const { page, dossierConfig } = useRouteData()
   const matches = useMediaQuery('(min-width: 720px)')
   return (
-    <Grid className="h-screen">
+    <Grid className="min-h-screen">
       <Header className="header-area bg-red-700" />
       <aside className="nav-area">
         <details open={matches}>

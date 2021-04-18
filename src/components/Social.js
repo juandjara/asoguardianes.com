@@ -4,9 +4,11 @@ import styled from 'styled-components'
 const CONTAINER_WIDTH = 812;
 
 const SocialStyles = styled.div`
+  display: flex;
+  align-items: center;
+
   a {
     padding: 12px 8px;
-    display: inline-block;
   }
 
   a:hover {
