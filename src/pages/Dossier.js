@@ -62,8 +62,8 @@ export default function Dossier() {
     <Grid className="min-h-screen">
       <Header className="header-area bg-red-700" />
       <aside className="nav-area">
-        <details open={matches}>
-          <summary className="px-5 cursor-pointer pt-4 text-base text-red-700">Secciones</summary>
+        <details className="sticky top-0" open={matches}>
+          <summary className="md:hidden px-5 cursor-pointer pt-4 text-base text-red-700">Secciones</summary>
           <ul className="py-2">
             {dossierConfig.map(d => (
               <li key={d.link}>
@@ -76,11 +76,11 @@ export default function Dossier() {
           </ul>
         </details>
       </aside>
-      <article className="main-area px-4">
+      <article className="main-area px-4 max-w-screen-lg">
         <h1 className="pt-8 font-medium text-center text-gray-700 text-6xl mb-4">{page.data.title}</h1>
         {page.data.bg_image && (
           <figure className="my-4">
-            <img className="object-cover w-full" src={page.data.bg_image} alt="imagen de portada" />
+            <img className="object-cover w-full" src={`${page.data.bg_image}?nf_resize=fit&w=1024`} alt="imagen de portada" />
             {page.data.bg_caption && (
               <figcaption className="text-gray-500 text-center text-xs mt-2">{page.data.bg_caption}</figcaption>
             )}
