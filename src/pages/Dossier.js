@@ -35,7 +35,7 @@ const Grid = styled.div`
     'main'
     'foot';
 
-  @media (min-width: 720px) {
+  @media (min-width: 768px) {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto auto 1fr auto;
     grid-template-areas:
@@ -57,10 +57,10 @@ const Grid = styled.div`
 
 export default function Dossier() {
   const { page, dossierConfig } = useRouteData()
-  const matches = useMediaQuery('(min-width: 720px)')
+  const matches = useMediaQuery('(min-width: 768px)')
   return (
     <Grid className="min-h-screen">
-      <Header className="header-area bg-red-700" />
+      <Header className="header-area bg-gradient-to-r from-red-600 to-red-900" />
       <aside className="nav-area">
         <details className="sticky top-0" open={matches}>
           <summary className="md:hidden px-5 cursor-pointer pt-4 text-base text-red-700">Secciones</summary>
