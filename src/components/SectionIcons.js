@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from '@reach/router'
 
 const SectionIcons = ({ items, className = '' }) => (
-  <ul className={`py-4 grid grid-cols-auto-fit-100 gap-x-6 gap-y-12 place-content-center animate__bounceInUp animate__animated ${className}`}>
+  <ul className={`py-4 grid grid-cols-auto-fit-100 gap-x-6 gap-y-12 place-content-center ${className}`}>
     {items.map(item => (
       <li className="text-center uppercase tracking-wider" key={item.link}>
         <Link to={item.link}>
