@@ -1,7 +1,6 @@
 ---
-title: Talleres
-bg_image: ""
-icon: "/images/iconos-dossier/talleres.png"
+image: ""
+image_caption: ""
 ---
 
 ## Vidrieras

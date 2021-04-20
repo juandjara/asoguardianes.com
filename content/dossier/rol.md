@@ -1,7 +1,6 @@
 ---
-title: Rol
-bg_image: "/images/upload/rol-ian-gonzalez-ovxmtsmejqo-unsplash.jpg"
-icon: "/images/iconos-dossier/rol.png"
+image: "/images/upload/rol-ian-gonzalez-ovxmtsmejqo-unsplash.jpg"
+image_caption: "Foto de Ian Gonzalez en Unsplash"
 ---
 
 Vive aventuras trepidantes, desde la conquista de un castillo medieval hasta batallas espaciales contra razas alienígenas, en vivo o lanzando los dados que controlan tu destino en la partida.

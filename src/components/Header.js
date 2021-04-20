@@ -19,7 +19,15 @@ export default function Header ({ className = '', ...props }) {
       <details open={matches}>
         <summary className="sm:hidden px-5 cursor-pointer py-2 text-base">Menú</summary>
         <nav className="flex flex-wrap items-start pt-0 p-3 space-x-2">
-          {menu.map(m => <Link className="rounded-md mt-2 py-2 px-4 hover:bg-red-600 bg-red-500" to={m.link}>{m.title}</Link>)}
+          {menu.map(m => (
+            <Link
+              to={m.link}
+              key={m.link}
+              className="rounded-md mt-2 py-2 px-4 hover:bg-red-600 bg-red-500"
+            >
+              {m.title}
+            </Link>
+          ))}
         </nav>
       </details>
     </header>

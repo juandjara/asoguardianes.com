@@ -67,7 +67,8 @@ const config = {
   plugins: [
     'react-static-plugin-styled-components',
     'react-static-plugin-reach-router',
-    'react-static-plugin-sitemap'
+    'react-static-plugin-sitemap',
+    ['react-static-plugin-file-watch-reload', { paths: ['content/**/*.md', 'data/*.json'] }]
   ]
 }
 
