@@ -3,34 +3,19 @@ label: Página del dossier
 hide_body: false
 display_field: title
 fields:
-- name: title
-  type: text
-  config:
-    required: true
-  label: Título
-- name: show_in_home
-  type: boolean
-  label: Mostrar en Inicio
-  description: Mostrar enlace en la página "Inicio"
-  default: true
-- name: show_in_dossier
-  type: boolean
-  label: Mostrar en Dossier
-  description: Mostrar enlace en la pagina "Dossier"
-  default: true
-- name: icon
-  type: file
-  config:
-    maxSize: 64
-  label: Icono
-  description: Icono para los menús de las páginas "Inicio" y "Dossier"
 - name: bg_image
   type: file
   config:
     maxSize: 64
-  label: Imagen de fondo
+  label: Imagen de título
   description: Opcional. Imagen decorativa para mostrar al inicio del documento junto
     con el título
+- name: image_caption
+  type: text
+  config:
+    required: false
+  label: Pie de la imagen de titulo
+  description: Opcional. Aquí puedes poner de donde viene la imagen, por ejemplo
 pages:
 - content/dossier/rol.md
 - content/dossier/talleres.md
