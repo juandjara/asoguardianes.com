@@ -2,6 +2,7 @@ import React from 'react'
 import { useSiteData } from 'react-static'
 import { Link } from '@reach/router'
 import useMediaQuery from 'utils/useMediaQuery'
+import menu from '../../data/headermenu.json'
 
 export default function Header ({ className = '', ...props }) {
   const { title, description } = useSiteData()
@@ -16,12 +17,9 @@ export default function Header ({ className = '', ...props }) {
         </div>
       </Link>
       <details open={matches}>
-        <summary className="sm:hidden px-5 cursor-pointer pt-2 pb-4 text-base">Menú</summary>
-        <nav className="flex flex-col sm:flex-row flex-wrap items-start pt-0 p-3 sm:space-x-3">
-          <Link className="rounded-md mt-2 py-2 px-4 hover:bg-red-600 bg-red-500" to="/blog">Blog</Link>
-          <Link className="rounded-md mt-2 py-2 px-4 hover:bg-red-600 bg-red-500" to="/dossier">Dossier</Link>
-          <Link className="rounded-md mt-2 py-2 px-4 hover:bg-red-600 bg-red-500" to="/calendario">Calendario</Link>
-          <Link className="rounded-md mt-2 py-2 px-4 hover:bg-red-600 bg-red-500" to="/contacto">Contacto</Link>
+        <summary className="sm:hidden px-5 cursor-pointer py-2 text-base">Menú</summary>
+        <nav className="flex flex-wrap items-start pt-0 p-3 space-x-2">
+          {menu.map(m => <Link className="rounded-md mt-2 py-2 px-4 hover:bg-red-600 bg-red-500" to={m.link}>{m.title}</Link>)}
         </nav>
       </details>
     </header>

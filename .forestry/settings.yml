@@ -2,47 +2,50 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/public/admin"
-webhook_url: 
+webhook_url:
 sections:
-- type: heading
-  label: Contenido
-- type: document
-  path: content/index.md
-  label: Inicio
-- type: document
-  path: content/contacto.md
-  label: Contacto
-- type: directory
-  path: content/blog
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/dossier
-  label: Dossier
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/calendar
-  label: Calendario
-  create: all
-  match: "**/*"
-- type: heading
-  label: Configuración
-- type: document
-  path: data/site.json
-  label: General
-- type: document
-  path: data/dossier.json
-  label: Dossier
+  - type: heading
+    label: Contenido
+  - type: document
+    path: content/index.md
+    label: Inicio
+  - type: document
+    path: content/contacto.md
+    label: Contacto
+  - type: directory
+    path: content/blog
+    label: Blog
+    create: all
+    match: "**/*"
+  - type: directory
+    path: content/dossier
+    label: Dossier
+    create: all
+    match: "**/*"
+  - type: directory
+    path: content/calendar
+    label: Calendario
+    create: all
+    match: "**/*"
+  - type: heading
+    label: Configuración
+  - type: document
+    path: data/site.json
+    label: General
+  - type: document
+    path: data/dossier.json
+    label: Dossier
+  - type: document
+    path: data/headermenu.json
+    label: Menú
 upload_dir: public/images/upload
 public_path: "/images/upload"
-front_matter_path: ''
-use_front_matter_path: 
+front_matter_path: ""
+use_front_matter_path:
 file_template: ":filename:"
 build:
   preview_env:
-  - GIT_LFS_SKIP_SMUDGE=1
+    - GIT_LFS_SKIP_SMUDGE=1
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
