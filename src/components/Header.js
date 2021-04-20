@@ -2,7 +2,7 @@ import React from 'react'
 import { useSiteData } from 'react-static'
 import { Link } from '@reach/router'
 import useMediaQuery from 'utils/useMediaQuery'
-import menu from '../../data/headermenu.json'
+import menu from '../../data/nav.json'
 
 export default function Header ({ className = '', ...props }) {
   const { title, description } = useSiteData()
