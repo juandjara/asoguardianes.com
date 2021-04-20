@@ -3,7 +3,7 @@ label: Página del dossier
 hide_body: false
 display_field: title
 fields:
-- name: bg_image
+- name: image
   type: file
   config:
     maxSize: 64
