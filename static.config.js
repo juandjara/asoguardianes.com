@@ -29,6 +29,7 @@ const config = {
   getSiteData() {
     return {
       ...siteData,
+      dossierConfig,
       lastBuilt: Date.now()
     }
   },
@@ -37,7 +38,6 @@ const config = {
     const blogPages = (await getFiles('content/blog/*.md')).map(p => ({ ...p, link: `/blog/${p.slug}` }))
     const dossierPages = (await getFiles('content/dossier/*.md')).map(p => ({ ...p, link: `/dossier/${p.slug}` }))
     const contactPage = await getFiles('content/contacto.md')
-    const instagramPosts = await fetchInstagramPosts({ userID: site.instagram_id })
 
     return [
       {
@@ -47,7 +47,7 @@ const config = {
       {
         path: '/',
         template: 'src/pages/Landing',
-        getData: () => ({ page: homePage[0], dossierConfig, instagramPosts })
+        getData: () => ({ page: homePage[0], dossierConfig, instagramPosts: [] })
       },
       ...blogPages.map(page => ({
         path: page.link,

@@ -6,6 +6,9 @@ module.exports = {
       gridTemplateColumns: {
         'auto-fit-100': 'repeat(auto-fit, 120px)'
       },
+      maxHeight: {
+        nav: 'calc(100vh - 360px)'
+      },
       typography(theme) {
         return {
           dark: {
