@@ -9,8 +9,8 @@ const Loading = () => (
     placeContent: 'center',
     height: '100vh'
   }}>
-    <p style={{marginBottom: 8, fontSize: '3rem', color: 'red'}}>Asociación Guardianes</p>
-    <span>Cargando el <em>portal</em> ...</span>
+    <p style={{marginBottom: 8, fontSize: '3rem', color: 'rgb(185, 28, 28)'}}>Asociación Guardianes</p>
+    <p><em>Abriendo portal</em> ...</p>
   </div>
 )
 

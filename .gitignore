@@ -69,3 +69,6 @@ tmp
 
 # Generated Tailwind CSS File
 src/index.min.css
+
+# Images automatically downloaded
+public/images/instagram_downloads
