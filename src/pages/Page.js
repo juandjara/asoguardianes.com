@@ -1,7 +1,7 @@
 import React from 'react'
 import { useMarkdownPage } from 'react-static-plugin-md'
 
-export default function Dossier({ children }) {
+export default function Page({ children }) {
   const { frontmatter } = useMarkdownPage()
   return (
     <article className="mx-auto px-4 max-w-3xl">
