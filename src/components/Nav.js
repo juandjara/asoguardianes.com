@@ -70,17 +70,17 @@ export default function Nav() {
                   </details>
                 </li>
                 <li>
-                  <NavLink to="/calendario" className="flex justify-start items-center">
+                  <NavLink to="/calendar" className="flex justify-start items-center">
                     <p className="ml-4 text-xl tracking-wider">Calendario</p>
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contacto" className="flex justify-start items-center">
+                  <NavLink to="/contact" className="flex justify-start items-center">
                     <p className="ml-4 text-xl tracking-wider">Contacto</p>
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/sobre-nosotros" className="flex justify-start items-center">
+                  <NavLink to="/about" className="flex justify-start items-center">
                     <p className="ml-4 text-xl tracking-wider">Sobre nosotros</p>
                   </NavLink>
                 </li>
@@ -90,8 +90,8 @@ export default function Nav() {
           <div className="flex-grow"></div>
           <footer className="m-4 space-y-2 text-white text-base">
             <div className="opacity-75">
-              <Link className="block" to="">RGPD</Link>
-              <Link className="block" to="">Privacidad</Link>
+              <Link className="block" to="/rgpd">RGPD</Link>
+              <Link className="block" to="/privacy">Privacidad</Link>
               <p>© Asociación Guardianes {new Date().getFullYear()}</p>
             </div>
             <Social />
