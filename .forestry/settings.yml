@@ -27,11 +27,9 @@ sections:
 - type: document
   path: content/contact.md
   label: Contacto
-  match: "**/*"
 - type: document
   path: content/about.md
   label: Sobre nosotros
-  match: "**/*"
 - type: heading
   label: Configuración
 - type: document

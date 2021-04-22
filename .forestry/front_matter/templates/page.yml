@@ -22,6 +22,7 @@ fields:
   label: Pie de la imagen de titulo
   description: Opcional. Aquí puedes poner de donde viene la imagen, por ejemplo
 pages:
+- content/about.md
 - content/dossier/concursos-y-gymkanas.md
 - content/dossier/cultura.md
 - content/dossier/esports.md
