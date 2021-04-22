@@ -23,6 +23,7 @@ fields:
   description: Opcional. Aquí puedes poner de donde viene la imagen, por ejemplo
 pages:
 - content/about.md
+- content/contact.md
 - content/dossier/concursos-y-gymkanas.md
 - content/dossier/cultura.md
 - content/dossier/esports.md
