@@ -35,9 +35,6 @@ sections:
 - type: document
   path: data/dossier.json
   label: Dossier
-- type: document
-  path: data/nav.json
-  label: Menú
 upload_dir: public/images/upload
 public_path: "/images/upload"
 front_matter_path: ''
