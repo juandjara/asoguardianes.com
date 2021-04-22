@@ -1,6 +1,6 @@
 ---
-image: ''
-image_caption: ''
+image: "/images/upload/ryan-wallace-0dwcufqqoku-unsplash.jpg"
+image_caption: Foto de Ryan Wallace en Unsplash
 title: 'Juegos de mesa '
 
 ---
