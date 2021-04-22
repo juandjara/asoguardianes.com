@@ -9,9 +9,6 @@ sections:
 - type: document
   path: content/index.md
   label: Inicio
-- type: document
-  path: content/contacto.md
-  label: Contacto
 - type: directory
   path: content/blog
   label: Blog
@@ -26,6 +23,10 @@ sections:
   path: content/calendar
   label: Calendario
   create: all
+  match: "**/*"
+- type: document
+  path: content/contact.md
+  label: Contacto
   match: "**/*"
 - type: heading
   label: Configuración
