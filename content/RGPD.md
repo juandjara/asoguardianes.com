@@ -1,5 +1,5 @@
 ---
-title: ""
+title: RGPD
 image: ""
 image_caption: ""
 ---
