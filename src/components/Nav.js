@@ -3,12 +3,14 @@ import { Link } from '@reach/router'
 import { useSiteData } from 'react-static'
 import Social from 'components/Social'
 import NavLink from 'components/NavLink'
+import useIsMobile from 'utils/useIsMobile'
 
 export const MenuContext = createContext()
 
 export default function Nav() {
   const menuRef = useRef()
   const { site, dossierConfig } = useSiteData()
+  const isMobile = useIsMobile()
 
   return (
     <MenuContext.Provider value={menuRef}>
@@ -21,7 +23,7 @@ export default function Nav() {
               <p>{site.description}</p>
             </div>
           </NavLink>
-          <details ref={menuRef} className="text-white" open>
+          <details ref={menuRef} className="text-white" open={!isMobile}>
             <summary className="md:hidden p-4 cursor-pointer text-center text-base">Menú</summary>
             <nav>
               <ul className="md:max-h-nav px-4 py-6 space-y-6 overflow-y-auto">
