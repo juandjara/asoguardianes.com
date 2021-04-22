@@ -13,7 +13,7 @@ function App() {
         <React.Suspense fallback={<Loading />}>
           <div className="md:flex">
             <Nav />
-            <Router>
+            <Router className="mx-auto flex-grow">
               <Routes path="*" />
             </Router>
           </div>

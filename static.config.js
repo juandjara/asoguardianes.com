@@ -1,9 +1,7 @@
 import React from 'react'
-import siteData from './data/site.json'
+import site from './data/site.json'
 import dossierConfig from './data/dossier.json'
 import { getFiles } from './lib/contentUtils'
-import fetchInstagramPosts from './lib/fetchInstagramPosts'
-import site from './data/site.json'
 
 const config = {
   Document: ({
@@ -15,8 +13,8 @@ const config = {
   }) => (
     <Html lang="es">
       <Head>
-        <title>{siteData.titulo}</title>
-        <meta name="description" content={siteData.subtitulo} />
+        <title>{siteData.site.title}</title>
+        <meta name="description" content={siteData.site.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel='icon' type='image/png' href='/images/escudo-fullcolor.png'/>
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Alegreya+Sans&display=swap" rel="stylesheet" />
@@ -28,16 +26,17 @@ const config = {
   ),
   getSiteData() {
     return {
-      ...siteData,
+      site,
       dossierConfig,
       lastBuilt: Date.now()
     }
   },
   getRoutes: async () => {
-    const homePage = await getFiles('content/index.md')
-    const blogPages = (await getFiles('content/blog/*.md')).map(p => ({ ...p, link: `/blog/${p.slug}` }))
-    const dossierPages = (await getFiles('content/dossier/*.md')).map(p => ({ ...p, link: `/dossier/${p.slug}` }))
-    const contactPage = await getFiles('content/contacto.md')
+    const blog = (await getFiles('content/blog/*.md')).map(p => ({ ...p, link: `/blog/${p.slug}` }))
+    const dossier = (await getFiles('content/dossier/*.md')).map(p => ({ ...p, link: `/dossier/${p.slug}` }))
+    const home = (await getFiles('content/index.md'))[0]
+    const contact = (await getFiles('content/contact.md'))[0]
+    const about = (await getFiles('content/about.md'))[0]
 
     return [
       {
@@ -46,24 +45,29 @@ const config = {
       },
       {
         path: '/',
-        template: 'src/pages/Landing',
-        getData: () => ({ page: homePage[0], dossierConfig, instagramPosts: [] })
+        template: 'src/components/Page',
+        getData: () => ({ page: home })
       },
-      ...blogPages.map(page => ({
+      {
+        path: '/contacto',
+        template: 'src/components/Page',
+        getData: () => ({ page: contact })
+      },
+      {
+        path: '/sobre-nosotros',
+        template: 'src/components/Page',
+        getData: () => ({ page: about })
+      },
+      ...blog.map(page => ({
         path: page.link,
         template: 'src/pages/Blog',
         getData: () => ({ page })
       })),
-      ...dossierPages.map(page => ({
+      ...dossier.map(page => ({
         path: page.link,
-        template: 'src/pages/Dossier',
-        getData: () => ({ page, dossierConfig })
-      })),
-      {
-        path: '/contacto',
-        template: 'src/pages/Contact',
-        getData: () => ({ page: contactPage[0] })
-      }
+        template: 'src/components/Page',
+        getData: () => ({ page })
+      }))
     ]
   },
   siteRoot: 'https://asoguardianes.com',

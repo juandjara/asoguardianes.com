@@ -1,5 +1,5 @@
 ---
-label: Página del dossier
+label: Página
 hide_body: false
 display_field: title
 fields:
@@ -29,3 +29,6 @@ pages:
   - content/dossier/juegos-de-mesa.md
   - content/dossier/rol.md
   - content/dossier/talleres.md
+  - content/index.md
+  - content/contact.md
+  - content/about.md

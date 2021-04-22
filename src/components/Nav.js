@@ -5,7 +5,7 @@ import useMediaQuery from 'utils/useMediaQuery'
 import Social from 'components/Social'
 
 export default function Nav() {
-  const { dossierConfig } = useSiteData()
+  const { site, dossierConfig } = useSiteData()
   const matches = useMediaQuery('(min-width: 768px)')
 
   return (
@@ -14,8 +14,8 @@ export default function Nav() {
         <Link to='/' className="p-2 text-white">
           <img className="w-24 mx-auto my-4" src="/images/escudo-fullcolor.png" alt="Escudo guardianes" />
           <div className="text-center">
-            <h1 className="text-2xl">Asociación Guardianes</h1>
-            <p>Eventos culturales de ocio alternativo</p>
+            <h1 className="text-2xl">{site.title}</h1>
+            <p>{site.description}</p>
           </div>
         </Link>
         <details className="text-white" open={matches}>
@@ -23,7 +23,7 @@ export default function Nav() {
           <nav>
             <ul className="md:max-h-nav px-4 py-6 space-y-6 overflow-y-auto">
               <li>
-                <Link to="/" className="flex justify-start items-center">
+                <Link to="/blog" className="flex justify-start items-center">
                   <p className="ml-4 text-xl tracking-wider">Blog</p>
                 </Link>
                 {/* <details open>
@@ -65,17 +65,17 @@ export default function Nav() {
                 </details>
               </li>
               <li>
-                <Link to="/" className="flex justify-start items-center">
+                <Link to="/calendario" className="flex justify-start items-center">
                   <p className="ml-4 text-xl tracking-wider">Calendario</p>
                 </Link>
               </li>
               <li>
-                <Link to="/" className="flex justify-start items-center">
+                <Link to="/contacto" className="flex justify-start items-center">
                   <p className="ml-4 text-xl tracking-wider">Contacto</p>
                 </Link>
               </li>
               <li>
-                <Link to="/" className="flex justify-start items-center">
+                <Link to="/sobre-nosotros" className="flex justify-start items-center">
                   <p className="ml-4 text-xl tracking-wider">Sobre nosotros</p>
                 </Link>
               </li>
