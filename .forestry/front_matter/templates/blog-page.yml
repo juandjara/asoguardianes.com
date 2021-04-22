@@ -2,37 +2,36 @@
 label: Página del blog
 hide_body: false
 fields:
-  - name: titulo
-    type: text
-    config:
-      required: true
-    label: Título
-  - name: fecha_de_publicacion
-    type: datetime
-    label: Fecha de publicación
-    description: ""
-    config:
-      required: false
-      date_format: DD/MM/YYYY
-      time_format:
-      display_utc: false
-    default: now
-  - name: etiquetas
-    type: tag_list
-    default: []
-    label: Etiquetas
-    description: Opcional
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: Imagen de título
-    description:
-      Opcional. Imagen decorativa para mostrar al inicio del documento junto
-      con el título
-  - name: image_caption
-    type: text
-    config:
-      required: false
-    label: Pie de la imagen de titulo
-    description: Opcional. Aquí puedes poner de donde viene la imagen, por ejemplo
+- name: titulo
+  type: text
+  config:
+    required: true
+  label: Título
+- name: fecha_de_publicacion
+  type: datetime
+  label: Fecha de publicación
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+  default: now
+- name: etiquetas
+  type: tag_list
+  default: []
+  label: Etiquetas
+  description: Opcional
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Imagen de título
+  description: Opcional. Imagen decorativa para mostrar al inicio del documento junto
+    con el título
+- name: image_caption
+  type: text
+  config:
+    required: false
+  label: Pie de la imagen de titulo
+  description: Opcional. Aquí puedes poner de donde viene la imagen, por ejemplo
