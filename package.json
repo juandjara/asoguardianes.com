@@ -6,7 +6,7 @@
     "build:css": "postcss src/index.css > src/index.min.css",
     "start": "NODE_ENV=development npm run build:css && react-static start",
     "stage": "NODE_ENV=production npm run build:css && react-static build --staging",
-    "build": "react-static build",
+    "build": "NODE_ENV=production npm run build:css && react-static build",
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000"
   },
