@@ -6,7 +6,7 @@
     "build:css": "postcss src/index.css > src/index.min.css",
     "start": "NODE_ENV=development npm run build:css && react-static start",
     "stage": "NODE_ENV=production npm run build:css && react-static build --staging",
-    "build": "NODE_ENV=production npm run build:css && react-static build",
+    "build": "react-static build",
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000"
   },
@@ -23,7 +23,7 @@
     "react-markdown": "^6.0.0",
     "react-static": "^7.5.3",
     "react-static-plugin-file-watch-reload": "^1.0.4",
-    "react-static-plugin-md": "^0.3.1",
+    "react-static-plugin-md": "^0.3.2",
     "react-static-plugin-reach-router": "^7.2.0",
     "react-static-plugin-sitemap": "^7.2.0",
     "react-static-plugin-styled-components": "^7.5.0",
@@ -42,6 +42,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss-cli": "^8.3.1",
+    "react-hot-loader": "^4.13.0",
     "serve": "^11.1.0"
   }
 }

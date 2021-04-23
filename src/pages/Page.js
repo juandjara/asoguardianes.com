@@ -1,8 +1,6 @@
 import React from 'react'
-import { useMarkdownPage } from 'react-static-plugin-md'
 
-export default function Page({ children }) {
-  const { frontmatter } = useMarkdownPage()
+export default function Page({ frontmatter, children }) {
   return (
     <article className="mx-auto px-4 max-w-3xl">
       <h1 className="pt-8 font-medium text-center text-gray-700 text-6xl mb-4">{frontmatter.title}</h1>

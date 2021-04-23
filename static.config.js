@@ -38,11 +38,11 @@ const config = {
         path: '404',
         template: 'src/pages/404'
       },
-      {
-        path: '/blog',
-        template: 'src/pages/Blog',
-        getData: () => ({ tree: blog })
-      },
+      // {
+      //   path: '/blog',
+      //   template: 'src/pages/Blog',
+      //   getData: () => ({ tree: blog })
+      // },
       ...blog.map(page => ({
         path: page.link,
         template: 'src/pages/BlogPage',
