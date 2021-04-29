@@ -28,33 +28,6 @@ export default function Nav() {
             <nav>
               <ul className="md:max-h-nav px-4 py-6 space-y-6 overflow-y-auto">
                 <li>
-                  <NavLink to="/blog" className="flex justify-start items-center">
-                    <p className="ml-4 text-xl tracking-wider">Blog</p>
-                  </NavLink>
-                  {/* <details open>
-                    <summary className="-ml-2 text-xl cursor-pointer">Blog</summary>
-                    <ul className="text-lg py-4 px-4">
-                      <li className="pt-2">
-                        <p>2021</p>
-                        <ul className="pt-2 p-4 list-disc">
-                          <li>Quedada de talleres</li>
-                          <li>Rol Online: Los Portales del Rey Goblin</li>
-                          <li>Dia de juegos de mesa: Arcadia Quest</li>
-                          <li>... 14 más</li>
-                        </ul>
-                      </li>
-                      <li className="pt-2">
-                        <p>2020</p>
-                        <ul className="pt-2 p-4 list-disc">
-                          <li>Fiesta de navidad 2020</li>
-                          <li>Evento de noviembre en un pueblo perdido</li>
-                          <li>... 3 más</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </details> */}
-                </li>
-                <li>
                   <details open>
                     <summary className="-ml-2 text-xl cursor-pointer">Dossier</summary>
                     <ul className="pt-1">
@@ -68,6 +41,11 @@ export default function Nav() {
                       ))}
                     </ul>
                   </details>
+                </li>
+                <li>
+                  <NavLink to="/blog" className="flex justify-start items-center">
+                    <p className="ml-4 text-xl tracking-wider">Blog</p>
+                  </NavLink>
                 </li>
                 <li>
                   <NavLink to="/calendar" className="flex justify-start items-center">
