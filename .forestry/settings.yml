@@ -48,10 +48,6 @@ sections:
     path: data/dossier.json
     label: Dossier
 
-  - type: document
-    path: content/dossier/index.md
-    hidden: true
-
 upload_dir: public/images/upload
 public_path: "/images/upload"
 front_matter_path: ""
