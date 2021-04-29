@@ -15,17 +15,23 @@ sections:
   create: documents
   match: "**/*"
   exclude: "**/index.md"
+  templates:
+  - page
 - type: directory
   path: content/blog
   label: Blog
+  create: documents
+  match: "**/*"
+  templates:
+  - blog-page
+- type: directory
+  path: content
+  label: Otras
   create: all
   match: "**/*"
-- type: document
-  path: content/contact.md
-  label: Contacto
-- type: document
-  path: content/about.md
-  label: Sobre nosotros
+  exclude: index.md
+  templates:
+  - page
 - type: heading
   label: Configuración
 - type: document
