@@ -10,13 +10,14 @@ sections:
   path: content/index.md
   label: Inicio
 - type: directory
-  path: content/blog
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
   path: content/dossier
   label: Dossier
+  create: documents
+  match: "**/*"
+  exclude: "**/index.md"
+- type: directory
+  path: content/blog
+  label: Blog
   create: all
   match: "**/*"
 - type: directory
