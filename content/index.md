@@ -1,9 +1,10 @@
 ---
 title: Asociación Guardianes
 image: "/images/upload/2555359346910591628.jpg"
-image_caption: ''
-
+image_caption: ""
+hideaside: true
 ---
+
 ### ¿Quienes somos?
 
 **Guardianes** es una asociación Cultural de Ocio Alternativo de Sevilla establecida en 2010 con experiencia en eventos por toda Andalucía. Nuestros grupos de trabajo realizan actividades para todos los gustos. Para muchos, Guardianes es el lugar donde poder desarrollar nuestras ideas al máximo bajo el apoyo de esta gran familia.

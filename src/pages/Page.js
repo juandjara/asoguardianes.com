@@ -31,7 +31,7 @@ export default function Page({ headings, frontmatter, children }) {
   return (
     <main className="md:flex items-start justify-center">
       <article className="md:flex-auto px-4 max-w-3xl">
-        <h1 className="pt-8 font-medium text-center text-gray-700 text-6xl mb-4">{frontmatter.title}</h1>
+        <h1 id="_top" className="pt-8 font-medium text-center text-gray-700 text-6xl mb-4">{frontmatter.title}</h1>
         {frontmatter.image && (
           <figure className="my-4">
             <img className="object-cover w-full" src={`${frontmatter.image}?nf_resize=fit&w=1024`} alt="imagen de portada" />
@@ -44,11 +44,14 @@ export default function Page({ headings, frontmatter, children }) {
           {children}
         </div>
       </article>
-      {headings.length && (
+      {(headings.length && !frontmatter.hideaside) && (
         <aside className={`${asideGteMd} ${asidePosition} w-full flex-shrink-0 ml-4 bg-red-50 rounded-lg`}>
           <details ref={detailsRef} open={!isMobile}>
             <summary className="p-3">En esta página</summary>
             <ul className="pb-8 px-6">
+              <li className="font-medium text-2xl mt-4 text-gray-700">
+                <a onClick={handleClick} href="#_top">{frontmatter.title}</a>
+              </li>
               {headings.map(h => (
                 <li key={h.slug} className={getStyleForHeading(h.depth - minHeading)}>
                   <a onClick={handleClick} href={`#${h.slug}`}>{h.value}</a>
