@@ -67,12 +67,15 @@ export default function Nav() {
           </details>
           <div className="flex-grow"></div>
           <footer className="m-4 space-y-2 text-white text-base">
-            <div className="opacity-75">
+            <Social />
+            <p>© Asociación Guardianes {new Date().getFullYear()}</p>
+            <div className="opacity-75 flex space-x-3">
               <Link className="block" to="/rgpd">RGPD</Link>
               <Link className="block" to="/privacy">Privacidad</Link>
-              <p>© Asociación Guardianes {new Date().getFullYear()}</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/juandjara/guardianes" className="block">
+                Código fuente en Github
+              </a>
             </div>
-            <Social />
           </footer>
         </div>
       </aside>
