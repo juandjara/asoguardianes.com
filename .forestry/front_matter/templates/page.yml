@@ -23,9 +23,15 @@ fields:
   description: Opcional. Aquí puedes poner de donde viene la imagen, por ejemplo
 pages:
 - content/dossier/concursos-y-gymkanas.md
+- content/dossier/concursos-y-gymkanas.md
+- content/dossier/cultura.md
 - content/dossier/cultura.md
 - content/dossier/esports.md
+- content/dossier/esports.md
+- content/dossier/juegos-de-mesa.md
 - content/dossier/juegos-de-mesa.md
 - content/dossier/rol.md
+- content/dossier/rol.md
+- content/dossier/talleres.md
 - content/dossier/talleres.md
 - content/index.md

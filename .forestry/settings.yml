@@ -29,7 +29,7 @@ sections:
   label: Otras
   create: all
   match: "**/*"
-  exclude: index.md
+  exclude: index.md, dossier/*.md
   templates:
   - page
 - type: heading
