@@ -1,14 +1,10 @@
-# Guardianes en la web
+# asoguardianes.com
 
-Stack tecnológico
-* Front-end
-  * React
-  * React-Static
+Portal oficial de la asociación cultural de ocio alternativo Guardianes de Sevilla.
+
+Stack tecnológico: 
+  * React-Static (+ plugins)
   * Reach Router
-  * Styled-Components
-
-* Back-end
-  * Docker
-  * Docker Compose
-  * Directus CMS
-  * Nginx
+  * TailwindCSS
+  * Markdown 
+  * Forestry
