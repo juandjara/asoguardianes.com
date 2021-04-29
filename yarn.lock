@@ -8295,10 +8295,10 @@ react-static-plugin-file-watch-reload@^1.0.4:
   dependencies:
     chokidar "3.4.1"
 
-react-static-plugin-md@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-md/-/react-static-plugin-md-0.3.2.tgz#71da1c9758babb914fb0b5ff24597f9b3ccf8302"
-  integrity sha512-TGCxaJz77Qp/wjvfWxOTEtUo2VmM4ITwYtfaDUHLOmdkNtI36h72k6680fNpVTQtNojzdJYwI7X7uqYcXCvx5w==
+react-static-plugin-md@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-md/-/react-static-plugin-md-0.3.3.tgz#4d1fcc0c16090bbf9da50bbe979278f36f947521"
+  integrity sha512-ax27KpvV17ihmLoD/pvJX4m1X56qzeFRrl65vzrMAH6rRcddmFgpN3tTIFpKbNPBeOsAcUzm/PfV/qN4Nn9OMw==
   dependencies:
     "@mdx-js/mdx" "^1.5.5"
     "@mdx-js/react" "^1.5.5"
