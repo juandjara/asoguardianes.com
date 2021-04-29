@@ -43,6 +43,10 @@ const config = {
       //   template: 'src/pages/Blog',
       //   getData: () => ({ tree: blog })
       // },
+      {
+        path: '/calendar',
+        template: 'src/pages/Calendar'
+      },
       ...blog.map(page => ({
         path: page.link,
         template: 'src/pages/BlogPage',
