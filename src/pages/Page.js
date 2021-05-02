@@ -40,7 +40,7 @@ export default function Page({ headings, frontmatter, children }) {
             )}
           </figure>
         )}
-        <div className="prose prose-red lg:prose-xl dark:prose-dark mx-auto py-8">
+        <div className="prose prose-red lg:prose-xl dark:prose-dark mx-auto py-6 mb-8">
           {children}
         </div>
       </article>
