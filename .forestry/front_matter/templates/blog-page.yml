@@ -36,3 +36,5 @@ fields:
     required: false
   label: Pie de la imagen de titulo
   description: Opcional. Aquí puedes poner de donde viene la imagen, por ejemplo
+pages:
+- content/blog/finales-del-concurso-de-dibujo.md
