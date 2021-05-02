@@ -44,8 +44,8 @@ export default function Page({ headings, frontmatter, children }) {
           {children}
         </div>
       </article>
-      {(headings.length && !frontmatter.hideaside) && (
-        <aside className={`${asideGteMd} ${asidePosition} w-full flex-shrink-0 ml-4 bg-red-50 rounded-lg`}>
+      {(!!headings.length && !frontmatter.hideaside) && (
+        <aside className={`${asideGteMd} ${asidePosition} overflow-y-auto max-h-screen w-full flex-shrink-0 ml-4 bg-red-50 rounded-lg`}>
           <details ref={detailsRef} open={!isMobile}>
             <summary className="p-3">En esta página</summary>
             <ul className="pb-8 px-6">
