@@ -21,7 +21,7 @@ sections:
   path: content/blog
   label: Blog
   create: documents
-  match: "**/*"
+  match: "*.md"
   templates:
   - blog-page
 - type: directory
