@@ -1,7 +1,6 @@
 import React from 'react'
 import site from './data/site.json'
 import dossierConfig from './data/dossier.json'
-import pages from './artifacts/pages.json'
 
 const config = {
   Document: ({
@@ -28,7 +27,6 @@ const config = {
     return {
       site,
       dossierConfig,
-      pages,
       lastBuilt: Date.now()
     }
   },

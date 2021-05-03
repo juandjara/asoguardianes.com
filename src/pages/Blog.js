@@ -1,6 +1,6 @@
 import { Link } from '@reach/router'
 import React from 'react'
-import { useSiteData } from 'react-static'
+import pages from '../../artifacts/pages.json'
 
 function formatDate(dateStr) {
   const date = new Date(dateStr)
@@ -8,7 +8,6 @@ function formatDate(dateStr) {
 }
 
 export default function Blog() {
-  const { pages } = useSiteData()
   const blogPages = pages.children.find(p => p.key === 'blog')?.children || []
   console.log(blogPages)
   return (
