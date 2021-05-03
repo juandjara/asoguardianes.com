@@ -16,9 +16,7 @@ const config = {
         <meta name="description" content={siteData.site.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel='icon' type='image/png' href='/images/escudo-fullcolor.png'/>
-        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Alegreya+Sans&display=swap" rel="stylesheet" />
-        <link href="https://unpkg.com/animate.css@4.1.1/animate.css" rel="stylesheet" />
-        {/* <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link> */}
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet" />
       </Head>
       <Body>{children}</Body>
     </Html>
