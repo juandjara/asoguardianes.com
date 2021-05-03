@@ -1,7 +1,7 @@
 import React from 'react'
 import site from './data/site.json'
 import dossierConfig from './data/dossier.json'
-import { getFiles } from './lib/contentUtils'
+import pages from './artifacts/pages.json'
 
 const config = {
   Document: ({
@@ -28,30 +28,24 @@ const config = {
     return {
       site,
       dossierConfig,
+      pages,
       lastBuilt: Date.now()
     }
   },
   getRoutes: async () => {
-    const blog = (await getFiles('content/blog/*.md')).map(p => ({ ...p, link: `/blog/${p.slug}` }))
     return [
       {
         path: '404',
         template: 'src/pages/404'
       },
-      // {
-      //   path: '/blog',
-      //   template: 'src/pages/Blog',
-      //   getData: () => ({ tree: blog })
-      // },
+      {
+        path: '/blog',
+        template: 'src/pages/Blog',
+      },
       {
         path: '/calendar',
         template: 'src/pages/Calendar'
-      },
-      ...blog.map(page => ({
-        path: page.link,
-        template: 'src/pages/BlogPage',
-        getData: () => ({ page })
-      }))
+      }
     ]
   },
   siteRoot: 'https://asoguardianes.com',

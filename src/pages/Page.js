@@ -31,7 +31,7 @@ export default function Page({ headings, frontmatter, children }) {
   return (
     <main className="md:flex items-start justify-center">
       <article className="md:flex-auto px-4 max-w-3xl">
-        <h1 id="_top" className="pt-8 font-medium text-center text-gray-700 text-6xl mb-4">{frontmatter.title}</h1>
+        <h1 id="_top" className="pt-12 mb-6 font-medium text-center text-gray-700 text-4xl">{frontmatter.title}</h1>
         {frontmatter.image && (
           <figure className="my-4">
             <img className="object-cover w-full" src={`${frontmatter.image}?nf_resize=fit&w=1024`} alt="imagen de portada" />
