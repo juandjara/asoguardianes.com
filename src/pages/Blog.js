@@ -1,6 +1,6 @@
 import { Link } from '@reach/router'
 import React from 'react'
-import pages from '../../artifacts/pages.json'
+import pages from 'react-static-plugin-md/dist/pagesTree'
 
 function formatDate(dateStr) {
   const date = new Date(dateStr)
