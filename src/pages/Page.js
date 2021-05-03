@@ -22,7 +22,6 @@ export default function Page({ headings, frontmatter, children }) {
   const isMobile = useIsMobile()
 
   function handleClick () {
-    console.log('onClick')
     if (detailsRef.current && isMobile) {
       detailsRef.current.open = false
     }
