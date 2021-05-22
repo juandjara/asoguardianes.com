@@ -39,3 +39,5 @@ Si has olvidado tu contraseña, puedes pedir que se te envie un correo para recu
 Este es el aspecto que tiene el correo enviado visto desde GMail en un ordenador. Al pulsar el enlace te llevará a la siguiente pantalla. Aquí podrás escribir tu nueva contraseña y se iniciará sesión automaticamente en tu cuenta.
 
 ![](/images/upload/screenshot_2021-05-22-guardianes-del-rol-5.png)
+
+### Mis partidas
