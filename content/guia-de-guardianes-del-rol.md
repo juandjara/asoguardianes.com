@@ -6,8 +6,8 @@ image_caption: ''
 ---
 ### Introducción
 
-Guardianes del Rol es la plataforma que usamos para organizar nuestras partidas de rol. Los narradores ofertan sus partidas y comparten los enlaces por los grupos de whatsapp de la asociacion y los socios se van apuntando hasta completar el número total de plazas. En cualquier momento un socio puede consultar la lista de partidas disponibles para apuntarse, aunque deben estar atentos, porque se llenan bastante rápido. A continuación vamos a explicar con imagénes las distintas partes de esta web.  
-  
+Guardianes del Rol es la plataforma que usamos para organizar nuestras partidas de rol. Los narradores ofertan sus partidas y comparten los enlaces por los grupos de whatsapp de la asociacion y los socios se van apuntando hasta completar el número total de plazas. En cualquier momento un socio puede consultar la lista de partidas disponibles para apuntarse, aunque deben estar atentos, porque se llenan bastante rápido. A continuación vamos a explicar con imagénes las distintas partes de esta web.
+
 Nada más entrar a [https://guardianesdelrol.vercel.app/](https://guardianesdelrol.vercel.app/ "https://guardianesdelrol.vercel.app/") la primera pantalla que veremos es la siguiente:
 
 ![texto introductorio y estadisticas](/images/upload/screenshot_2021-05-22-guardianes-del-rol.png "Pantalla principal")
@@ -47,3 +47,7 @@ Este es el aspecto que tiene el correo enviado visto desde GMail en un ordenador
 En esta pantalla podemos ver todas las partidas a las que nos hemos apuntado y todas las que hemos dirigido. Desde aquí podemos acceder a ver el listado completo de partidas y a editar nuestro perfil (nombre, imagen y bio).
 
 ### Mi cuenta
+
+![](/images/upload/captura-de-pantalla-2021-05-22-a-las-17-35-16.png)
+
+En esta pantalla tenemos distinas secciones, y los cambios de cada una se guardan por separado. En la primera sección podremos cambiar nuestro avatar, nombre y biografia. Los numeros que aparecen en la esquina superior derecha de los campos de texto indican el número máximo de caractéres para ese texto. En la segunda sección podremos cambiar la contraseña a una nueva si conocemos la contraseña actual.
