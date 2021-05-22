@@ -1,7 +1,7 @@
 ---
 title: RGPD
-image: ""
-image_caption: ""
----
+image: ''
+image_caption: ''
 
-WIP
+---
+En construcción
