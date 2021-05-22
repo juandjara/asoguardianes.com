@@ -34,11 +34,11 @@ Si has olvidado tu contraseña, puedes pedir que se te envie un correo para recu
 
 ![pantalla de recuperar contraseña (1)](/images/upload/screenshot_2021-05-22-guardianes-del-rol-3.png "pantalla de recuperar contraseña (1)")
 
-![pantalla de recuperar contraseña (2)](/images/upload/screenshot_2021-05-22-guardianes-del-rol-4.png "pantalla de recuperar contraseña (2)")![](/images/upload/captura-de-pantalla-2021-05-22-a-las-16-58-00.png)
+![pantalla de recuperar contraseña (2)](/images/upload/screenshot_2021-05-22-guardianes-del-rol-4.png "pantalla de recuperar contraseña (2)")![correo de recuperar contraseña](/images/upload/captura-de-pantalla-2021-05-22-a-las-16-58-00.png "correo de recuperar contraseña")
 
 Este es el aspecto que tiene el correo enviado visto desde GMail en un ordenador. Al pulsar el enlace te llevará a la siguiente pantalla. Aquí podrás escribir tu nueva contraseña y se iniciará sesión automaticamente en tu cuenta.
 
-![](/images/upload/screenshot_2021-05-22-guardianes-del-rol-5.png)
+![pantalla de recuperar contraseña (3)](/images/upload/screenshot_2021-05-22-guardianes-del-rol-5.png "pantalla de recuperar contraseña (3)")
 
 ### Mis partidas
 
