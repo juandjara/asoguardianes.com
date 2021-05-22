@@ -51,3 +51,15 @@ En esta pantalla podemos ver todas las partidas a las que nos hemos apuntado y t
 ![](/images/upload/captura-de-pantalla-2021-05-22-a-las-17-35-16.png)
 
 En esta pantalla tenemos distinas secciones, y los cambios de cada una se guardan por separado. En la primera sección podremos cambiar nuestro avatar, nombre y biografia. Los numeros que aparecen en la esquina superior derecha de los campos de texto indican el número máximo de caractéres para ese texto. En la segunda sección podremos cambiar la contraseña a una nueva si conocemos la contraseña actual.
+
+### Partidas
+
+TODO
+
+### Juegos
+
+TODO
+
+### Eventos
+
+TODO
