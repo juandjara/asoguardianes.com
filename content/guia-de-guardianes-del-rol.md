@@ -33,3 +33,5 @@ Si no dispones de una cuenta puedes pulsar el enlace **crear cuenta** de la pant
 Si has olvidado tu contraseña, puedes pedir que se te envie un correo para recuperarla pulsando el enlace **olvidé mi contraseña** en la pantalla **iniciar sesión**. Tras introducir tu correo y pulsar el botón se te enviará un enlace desde el que restablecer tu contrseña.
 
 ![](/images/upload/screenshot_2021-05-22-guardianes-del-rol-3.png)
+
+![](/images/upload/screenshot_2021-05-22-guardianes-del-rol-4.png)
