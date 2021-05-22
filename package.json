@@ -23,7 +23,7 @@
     "react-markdown": "^6.0.0",
     "react-static": "^7.5.3",
     "react-static-plugin-file-watch-reload": "^1.0.4",
-    "react-static-plugin-md": "^0.3.4",
+    "react-static-plugin-md": "0.3.6",
     "react-static-plugin-reach-router": "^7.2.0",
     "react-static-plugin-sitemap": "^7.2.0",
     "react-static-plugin-styled-components": "^7.5.0",
