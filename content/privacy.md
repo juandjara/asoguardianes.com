@@ -1,7 +1,7 @@
 ---
 title: Política de privacidad
-image: ""
-image_caption: ""
----
+image: ''
+image_caption: ''
 
-WIP
+---
+En construcción
