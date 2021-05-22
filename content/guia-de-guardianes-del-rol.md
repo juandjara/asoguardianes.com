@@ -41,3 +41,9 @@ Este es el aspecto que tiene el correo enviado visto desde GMail en un ordenador
 ![](/images/upload/screenshot_2021-05-22-guardianes-del-rol-5.png)
 
 ### Mis partidas
+
+![](/images/upload/captura-de-pantalla-2021-05-22-a-las-17-22-18.png)
+
+En esta pantalla podemos ver todas las partidas a las que nos hemos apuntado y todas las que hemos dirigido. Desde aquí podemos acceder a ver el listado completo de partidas y a editar nuestro perfil (nombre, imagen y bio).
+
+### Mi cuenta
