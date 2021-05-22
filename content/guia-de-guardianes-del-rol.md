@@ -4,8 +4,6 @@ image: ''
 image_caption: ''
 
 ---
-¿Como funciona esta web?
-
 ### Introducción
 
 Nada más entrar a [https://guardianesdelrol.vercel.app/](https://guardianesdelrol.vercel.app/ "https://guardianesdelrol.vercel.app/") la primera pantalla que veremos es la siguiente:
