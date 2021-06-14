@@ -62,7 +62,11 @@ En esta pantalla podemos ver en una cuádrciula todas las partidas disponibles, 
 
 ![](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-22-18.png)
 
-El botón de busqueda abre el menú de búqueda, que es igual para todas las pantallas. En este menú podemos buscar una partida por su nombre. Bajo la caja de texto vemos una lista con las últimas 5 búsquedas introducidas. Podemos eliminar una de estas búsquedas recientes pulsando la X a la derecha. Pulsando la X a la derecha de la caja de texto borramos la búsqueda actual y cerramos el menú de búsqueda
+El botón de busqueda abre el menú de búqueda, que es igual para todas las pantallas. En este menú podemos buscar una partida por su nombre. Bajo la caja de texto vemos una lista con las últimas 5 búsquedas introducidas. Podemos eliminar una de estas búsquedas recientes pulsando la X a la derecha. Pulsando la X a la derecha de la caja de texto borramos la búsqueda actual y cerramos el menú de búsqueda. El menú de busqueda tambien se cerrará al hacer click en cualquier otra parte de la aplicación fuera del menú.
+
+![](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-21-56.png)
+
+☝️Así se verá el botón de búsqueda en estado cerrado cuando hayamos aplicado una búsqueda.
 
 #### Menú de filtros
 
