@@ -42,33 +42,35 @@ Este es el aspecto que tiene el correo enviado visto desde GMail en un ordenador
 
 ### Mis partidas
 
-![](/images/upload/captura-de-pantalla-2021-05-22-a-las-17-22-18.png)
+![pantalla "mis partidas"](/images/upload/captura-de-pantalla-2021-05-22-a-las-17-22-18.png 'pantalla "mis partidas"')
 
 En esta pantalla podemos ver todas las partidas a las que nos hemos apuntado y todas las que hemos dirigido. Desde aquí podemos acceder a ver el listado completo de partidas y a editar nuestro perfil (nombre, imagen y bio).
 
 ### Mi cuenta
 
-![](/images/upload/captura-de-pantalla-2021-05-22-a-las-17-35-16.png)
+![pantalla "mi cuenta"](/images/upload/captura-de-pantalla-2021-05-22-a-las-17-35-16.png 'pantalla "mi cuenta"')
 
 En esta pantalla tenemos distinas secciones, y los cambios de cada una se guardan por separado. En la primera sección podremos cambiar nuestro avatar, nombre y biografia. Los numeros que aparecen en la esquina superior derecha de los campos de texto indican el número máximo de caractéres para ese texto. En la segunda sección podremos cambiar la contraseña a una nueva si conocemos la contraseña actual.
 
 ### Partidas
 
-![](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-13-45.png)
+![lista completa de partidas](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-13-45.png "lista completa de partidas")
 
 En esta pantalla podemos ver en una cuádrciula todas las partidas disponibles, organizadas en páginas de 12 elementos. Arriba a la izquierda tenemos el contador de partidas, que se verá afectado por los filtros que apliquemos en la parte de arriba a la derecha. En la esquina superior derecha tenemos tres botones: El botón de búsqueda, el botón de filtros y el botón de nueva partida. 
 
 #### Menú de búsqueda
 
-![](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-22-18.png)
+![menú de búsqueda](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-22-18.png "menú de busqueda")
 
-El botón de busqueda abre el menú de búqueda, que es igual para todas las pantallas. En este menú podemos buscar una partida por su nombre. Bajo la caja de texto vemos una lista con las últimas 5 búsquedas introducidas. Podemos eliminar una de estas búsquedas recientes pulsando la X a la derecha. Pulsando la X a la derecha de la caja de texto borramos la búsqueda actual y cerramos el menú de búsqueda. El menú de busqueda tambien se cerrará al hacer click en cualquier otra parte de la aplicación fuera del menú.
+El botón de busqueda abre el menú de búqueda, que tiene el mismo aspecto en todas las pantallas. En este menú podemos buscar una partida por su nombre. Bajo la caja de texto vemos una lista con las últimas 5 búsquedas introducidas. Podemos eliminar una de estas búsquedas recientes pulsando la X a la derecha. Pulsando la X a la derecha de la caja de texto borramos la búsqueda actual y cerramos el menú de búsqueda. El menú de busqueda tambien se cerrará al hacer click en cualquier otra parte de la aplicación fuera del menú.
 
-![](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-21-56.png)
+![botón de busqueda cerrado](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-21-56.png "botón de busqueda cerrado")
 
 ☝️Así se verá el botón de búsqueda en estado cerrado cuando hayamos aplicado una búsqueda.
 
 #### Menú de filtros
+
+El botón de filtros abre el menú de filtros, que tiene el mismo aspecto en todas las pantallas. Desde este menú podemos filtrar la lista de partidas por fecha o sección
 
 #### Nueva partida
 
