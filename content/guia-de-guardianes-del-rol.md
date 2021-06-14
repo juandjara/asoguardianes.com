@@ -56,7 +56,7 @@ En esta pantalla tenemos distinas secciones, y los cambios de cada una se guarda
 
 ![lista completa de partidas](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-13-45.png "lista completa de partidas")
 
-En esta pantalla podemos ver en una cuádrciula todas las partidas disponibles, organizadas en páginas de 12 elementos. Arriba a la izquierda tenemos el contador de partidas, que se verá afectado por los filtros que apliquemos en la parte de arriba a la derecha. En la esquina superior derecha tenemos tres botones: El botón de búsqueda, el botón de filtros y el botón de nueva partida. 
+En esta pantalla podemos ver en una cuádrciula todas las partidas disponibles, organizadas en páginas de 12 elementos. Arriba a la izquierda tenemos el contador de partidas, que se verá afectado por los filtros que apliquemos en la parte de arriba a la derecha. En la esquina superior derecha tenemos tres botones: El botón de búsqueda, el botón de filtros y el botón de nueva partida.
 
 #### Menú de búsqueda
 
@@ -70,14 +70,22 @@ El botón de busqueda abre el menú de búqueda, que tiene el mismo aspecto en t
 
 #### Menú de filtros
 
-El botón de filtros abre el menú de filtros, que tiene el mismo aspecto en todas las pantallas. Desde este menú podemos filtrar la lista de partidas por fecha o sección
+![](/images/upload/captura-de-pantalla-2021-06-14-a-las-17-00-47.png)
+
+El botón de filtros abre el menú de filtros, que tiene el mismo aspecto en todas las pantallas. Desde este menú podemos filtrar la lista de partidas por fecha o por evento, y cambiar el número de elementos que se muestran en cada página o el criterio por el que se ordenan. La lista de eventos (que en la foto aparece desplegada) se despliega al pulsar el selector de evento, lo que en la foto se ve con el texto "todos". Pulsando en las cajas que contienen el texto "dd/mm/aaaa" se abrirá un calendario con el que podremos seleccionar una fecha para ese filtro, aunque tambien podremos usar el teclado para escribir una fecha directamente. Pulsando sobre "esta semana" y "la semana que viene" ajustaremos los dos selectores de fechas para que muestren solo las partidas de la semana actual o la semana siguiente.
+
+Cuando el botón de filtros esta cerrado y hay algún filtro aplicado, este tiene el mismo aspecto que el botón de búsuqeda con una búsqueda aplicada. Pulsando sobre el botón "Limpiar", podremos limpiar los filtros que tuvieramos aplicados.
+
+Pulsando sobre el botón "Aplicar" en la esquina superior derecha del panel de filtros aplicaremos los filtros introducidos a la lista de partidas. Admás, esto generará una nueva URL en la barra de direcciones de nuestro navegador que podremos usar para compartir la lista de partidas con esta serie de filtros en concreto, aunque mas que usar que esta URL larga y compleja, recomiendo usar un acortador de enlaces como https://bit.do, sobretodo si la plataforma va a ser usada en un evento público.
 
 #### Nueva partida
 
+SOON
+
 ### Juegos
 
-TODO
+SOON
 
 ### Eventos
 
-TODO
+SOON
