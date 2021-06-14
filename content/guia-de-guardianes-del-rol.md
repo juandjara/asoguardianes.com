@@ -54,7 +54,15 @@ En esta pantalla tenemos distinas secciones, y los cambios de cada una se guarda
 
 ### Partidas
 
-TODO
+![](/images/upload/captura-de-pantalla-2021-06-14-a-las-16-13-45.png)
+
+En esta pantalla podemos ver en una cuádrciula todas las partidas disponibles, organizadas en páginas de 12 elementos. Arriba a la izquierda tenemos el contador de partidas, que se verá afectado por los filtros que apliquemos en la parte de arriba a la derecha. En la esquina superior derecha tenemos tres botones: El botón de búsqueda, el botón de filtros y el botón de nueva partida. 
+
+#### Menú de búsqueda
+
+#### Menú de filtros
+
+#### Nueva partida
 
 ### Juegos
 
