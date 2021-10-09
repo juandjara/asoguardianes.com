@@ -14,7 +14,7 @@
     "@reach/router": "^1.2.1",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "globby": "^11.0.3",
     "gray-matter": "^4.0.2",
     "postcss": "^8.2.10",
