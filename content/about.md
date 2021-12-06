@@ -50,7 +50,7 @@ Subjefe: Lidia Calado
 
 **Esports**
 
-Jefe: Carlos Arteaga 
+Jefe: Carlos Arteaga
 
 Subjefe: Carlos García (Kroaler)
 
