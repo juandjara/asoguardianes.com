@@ -9,36 +9,50 @@ image_caption: ''
 #### Junta Directiva:
 
 **Presidencia**: Aurora Garcia
-**Vicepresidencia**: Rafael de Valenzuela
-**Secretariado**: Lidia Calado
-**Tesoreria**: Jose Luis Cabello (Selu)
-**Vocal de Socios**: Rafael de Valenzuela
-**Vocal de Redes**: Maria Ramos
-**Vocal de Comuncaciones**: Juan Domínguez Jara (Boleto)
 
+**Vicepresidencia**: Rafael de Valenzuela
+
+**Secretariado**: Lidia Calado
+
+**Tesoreria**: Jose Luis Cabello (Selu)
+
+**Vocal de Socios**: Rafael de Valenzuela
+
+**Vocal de Redes**: Maria Ramos
+
+**Vocal de Comuncaciones**: Juan Domínguez Jara (Boleto)
 
 #### Jefes de Grupo:
 
 **Rol**:
+
 Jefe: Elena Sánchez
+
 Subjefe: Alvaro Menudo (Raven)
 
 **Juegos de Mesa**
+
 Jefe: Antonio Estudillo (Toni)
+
 Subjefe: Manuel Fernandez
 
 **Talleres**
+
 Jefe: Juan Diez
+
 Subjefe: Rocio Varo
 
 **Concursos y Gymkanas**
+
 Jefe: Maribel de Valenzuela
+
 Subjefe: Lidia Calado
 
 **Esports**
-Jefe: Carlos Arteaga
-Subjefe: Carlos García (Kroaler)
 
+Jefe: Carlos Arteaga 
+
+Subjefe: Carlos García (Kroaler)
 
 ## Normas básicas:
 
