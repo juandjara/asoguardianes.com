@@ -6,7 +6,7 @@ image_caption: ''
 ---
 ## Cargos de la asociación:
 
-#### Junta Directiva:
+### Junta Directiva:
 
 **Presidencia**: Aurora Garcia
 
@@ -22,7 +22,7 @@ image_caption: ''
 
 **Vocal de Comuncaciones**: Juan Domínguez Jara (Boleto)
 
-#### Jefes de Grupo:
+### Jefes de Grupo:
 
 **Rol**:
 
