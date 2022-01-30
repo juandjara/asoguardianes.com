@@ -10,49 +10,47 @@ image_caption: ''
 
 **Presidencia**: Aurora Garcia
 
-**Vicepresidencia**: Rafael de Valenzuela
+**Vicepresidencia**: Maria Ramos
 
-**Secretariado**: Lidia Calado
+**Secretariado**: Antonio Estudillo (Toni)
 
 **Tesoreria**: Jose Luis Cabello (Selu)
 
-**Vocal de Socios**: Rafael de Valenzuela
+**Vocal de Socios**: Rocio Varo
 
-**Vocal de Redes**: Maria Ramos
+**Vocal de Redes**: Daniel Matias
 
-**Vocal de Comuncaciones**: Juan Domínguez Jara (Boleto)
+**Vocal de Comuncaciones**: Manuel Fernandez
 
 ### Jefes de Grupo:
 
 **Rol**:
 
-Jefe: Elena Sánchez
+Jefe: Alvaro Moreno
 
-Subjefe: Alvaro Menudo (Raven)
+Subjefe: Jose Luis Ales (Pepelu)
 
 **Juegos de Mesa**
 
-Jefe: Antonio Estudillo (Toni)
+Jefe: Alejandro Fernandez (Alejandrero)
 
-Subjefe: Manuel Fernandez
+Subjefe: Antonio Estudillo (Toni)
 
 **Talleres**
 
 Jefe: Juan Diez
 
-Subjefe: Rocio Varo
+Subjefe: Eva del Villar
 
 **Concursos y Gymkanas**
 
-Jefe: Maribel de Valenzuela
-
-Subjefe: Lidia Calado
+(gestionado por La Junta)
 
 **Esports**
 
-Jefe: Carlos Arteaga
+Jefe: Eugenia Moreno
 
-Subjefe: Carlos García (Kroaler)
+Subjefe: Manuel Fernandez
 
 ## Normas básicas:
 
