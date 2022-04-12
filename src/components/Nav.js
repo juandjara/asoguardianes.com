@@ -42,11 +42,11 @@ export default function Nav() {
                     </ul>
                   </details>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink to="/blog" className="flex justify-start items-center">
                     <p className="ml-4 text-xl tracking-wider">Blog</p>
                   </NavLink>
-                </li>
+                </li> */}
                 <li>
                   <NavLink to="/calendar" className="flex justify-start items-center">
                     <p className="ml-4 text-xl tracking-wider">Calendario</p>
