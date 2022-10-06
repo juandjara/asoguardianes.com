@@ -2,10 +2,6 @@
 title: Asoguardianes.Com
 timezone: UTC
 collections:
-  content-dossier:
-    title: Dossier
-    output: true
-    permalink: "/dossier"
   posts:
     title: Posts
     output: true
