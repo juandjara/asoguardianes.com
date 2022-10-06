@@ -1,9 +1,9 @@
 ---
-publish_date: 2021-05-03T01:17:58+02:00
-tags: []
 title: Finales del Concurso de Dibujo
+publish_date: 2021-05-02 23:17:58 Z
+tags: []
 image: "/images/upload/12_pencils.png"
-image_caption: ""
+image_caption: ''
 ---
 
 En estos momentos, los miembros de la Asociación Guardianes estan deilberando de manera democrática quienes serán los 5 participantes del Concurso de Dibujo que ascendéran a la Fase Final. Más de 400 artistas han participado en esta competición, aportando su talento y esfuerzo, y hemos podido ver el trabajo de muchos de ellos. Ahora, 15 semifinalistas han sido seleccionados por los organizadores para que los socios decidan cuales son sus dibujos favoritos.

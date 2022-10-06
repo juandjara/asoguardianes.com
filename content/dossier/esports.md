@@ -2,8 +2,8 @@
 title: E-sports
 image: "/images/upload/emmanuel-nklivbi2mvs-unsplash.jpg"
 image_caption: Foto por axville en Unsplash
-
 ---
+
 En este grupo de trabajo, realizamos torneos y quedadas que tienen relación con los videojuegos y/o la competición de estos. Así que…¡Ven y disfruta de ellos con nosotros!
 
 En nuestro plantel, tenemos incluidos los siguientes juegos:

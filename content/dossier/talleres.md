@@ -1,7 +1,7 @@
 ---
-image: "/images/upload/jo-szczepanska-9okgevjitkk-unsplash.jpg"
-image_caption: "Foto de Jo Szczepanska en Unsplash"
 title: Talleres
+image: "/images/upload/jo-szczepanska-9okgevjitkk-unsplash.jpg"
+image_caption: Foto de Jo Szczepanska en Unsplash
 ---
 
 Actividades artesanales te esperan en nuestros talleres donde descubrirás tu lado más creativo.

@@ -1,9 +1,9 @@
 ---
+title: 'Juegos de mesa '
 image: "/images/upload/ryan-wallace-0dwcufqqoku-unsplash.jpg"
 image_caption: Foto de Ryan Wallace en Unsplash
-title: 'Juegos de mesa '
-
 ---
+
 En nuestra asociación disponemos de una amplia ludoteca disponible, con juegos tanto tradicionales como nuevos, hasta juegos del extranjero que rara vez se han podido ver aquí. A continuación se muestra la lista separada en dos grupos: Los diseñados y creados por nosotros y los de editoriales externas:
 
 ## Juegos diseñados por nosotros:

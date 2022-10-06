@@ -2,8 +2,8 @@
 title: Guía de Guardianes del Rol
 image: ''
 image_caption: ''
-
 ---
+
 ### Introducción
 
 Guardianes del Rol es la plataforma que usamos para organizar nuestras partidas de rol. Los narradores ofertan sus partidas y comparten los enlaces por los grupos de whatsapp de la asociacion y los socios se van apuntando hasta completar el número total de plazas. En cualquier momento un socio puede consultar la lista de partidas disponibles para apuntarse, aunque deben estar atentos, porque se llenan bastante rápido. A continuación vamos a explicar con imagénes las distintas partes de esta web.

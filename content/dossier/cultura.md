@@ -2,8 +2,8 @@
 title: Cultura
 image: "/images/upload/mark-autumns-qpq5x8bd0aw-unsplash.jpg"
 image_caption: Mark Autumns
-
 ---
+
 Desde Guardianes queremos acercar la cultura a nuestros socios, por lo que recientemente se ha creado esta sección desde la que llevaremos a cabo actividades de un gran abanico cultural, tanto de la cultura japonesa como de otros ámbitos, como la literatura, el cine, teatro, arte, etc.
 
 Nos preocupa mantener la cultura presente para el disfrute de todos. Por ello, desde Guardianes queremos aportar nuestro granito de arena ofreciendo nuestra colaboración en todo evento cultural.
