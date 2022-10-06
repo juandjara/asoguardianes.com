@@ -2,6 +2,9 @@
 title: Asoguardianes.Com
 timezone: UTC
 collections:
+  dossier:
+    title: Dossier
+    output: true
   posts:
     title: Posts
     output: true
