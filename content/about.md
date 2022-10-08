@@ -1,10 +1,9 @@
 ---
 title: Sobre nosotros
-position: 8
 image: ''
 image_caption: ''
----
 
+---
 ## Cargos de la asociación:
 
 ### Junta Directiva:
@@ -49,9 +48,9 @@ Subjefe: Eva del Villar
 
 **Esports**
 
-Jefe: Eugenia Moreno
+Jefe: Lucía del Río
 
-Subjefe: Manuel Fernandez
+Subjefe: Jorge Calderón
 
 ## Normas básicas:
 
