@@ -1,5 +1,6 @@
 ---
 title: Asociación Guardianes
+position: 6
 image: "/images/upload/2555359346910591628.jpg"
 image_caption: ''
 hideaside: true

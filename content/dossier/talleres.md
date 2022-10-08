@@ -1,5 +1,6 @@
 ---
 title: Talleres
+position: 13
 image: "/images/upload/jo-szczepanska-9okgevjitkk-unsplash.jpg"
 image_caption: Foto de Jo Szczepanska en Unsplash
 ---
