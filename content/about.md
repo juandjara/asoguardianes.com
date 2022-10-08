@@ -2,8 +2,8 @@
 title: Sobre nosotros
 image: ''
 image_caption: ''
-
 ---
+
 ## Cargos de la asociación:
 
 ### Junta Directiva:
