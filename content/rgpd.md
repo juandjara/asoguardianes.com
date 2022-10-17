@@ -1,5 +1,4 @@
 ---
-title: null
 ---
 
 En construcción...
