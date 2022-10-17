@@ -1,8 +1,7 @@
 ---
 title: Política de privacidad
-position: 1
-image: ''
-image_caption: ''
+image: 1
+image_caption: 
 ---
 
 En construcción
