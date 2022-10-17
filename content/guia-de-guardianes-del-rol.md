@@ -1,7 +1,5 @@
 ---
-title: Guía de Guardianes del Rol
-image: 11
-image_caption: 
+title: RGPD
 ---
 
 ### Introducción
