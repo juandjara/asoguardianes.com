@@ -1,1 +1,40 @@
-{"collections":[{"id":"pages","name":"Pages","route":"/content","template":""},{"id":"dossier","name":"Dossier","route":"/content/dossier","template":""}],"templates":[],"drafts":{"enabled":false,"route":"/drafts"}}
+{
+  "collections": [
+    {
+      "id": "pages",
+      "name": "Pages",
+      "route": "/content",
+      "template": ""
+    },
+    {
+      "id": "dossier",
+      "name": "Dossier",
+      "route": "/content/dossier",
+      "template": ""
+    }
+  ],
+  "templates": [
+    {
+      "id": "image-with-caption",
+      "name": "Image with caption",
+      "fields": [
+        {
+          "field": "image",
+          "hidden": false,
+          "default": null,
+          "name": null
+        },
+        {
+          "field": "image_caption",
+          "hidden": false,
+          "default": null,
+          "name": null
+        }
+      ]
+    }
+  ],
+  "drafts": {
+    "enabled": false,
+    "route": "/drafts"
+  }
+}
