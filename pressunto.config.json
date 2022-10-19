@@ -10,7 +10,7 @@
       "id": "dossier",
       "name": "Dossier",
       "route": "/content/dossier",
-      "template": ""
+      "template": "image-with-caption"
     }
   ],
   "templates": [
