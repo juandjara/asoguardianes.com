@@ -1,5 +1,0 @@
----
-title: RGPD
----
-
-En construcción...
